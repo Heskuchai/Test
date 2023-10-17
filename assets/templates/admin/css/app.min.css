@@ -1,0 +1,301 @@
+body ::-webkit-scrollbar {
+    width: 0px!important;
+    height: 5px!important;
+}
+@media only screen and (min-width: 993px) {
+.container {
+    width: 75%;
+}
+}
+.addimg {
+    height: 53%;
+    margin-top: 13px;
+}
+.ex-btn {
+    background: #1c7045;
+    color: white;
+}
+.ex-btn:hover {
+    background: #1c7045;
+    color: white;
+}
+body ::-webkit-scrollbar-thumb {
+    background-color: rgba(72, 72, 72, 0.52);
+    border-radius: 5px;
+}
+ul.side-nav.fixed {
+    overflow: auto!important;
+}
+body ::-webkit-scrollbar-track {
+    background-color: fff;
+    border-radius: 5px;
+}
+.mainwrap {
+  padding-top:100px;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+    color: #607D8B!important;
+}
+.srbtn {
+    width : 100%;
+}
+/* хром, сафари */
+.modal::-webkit-scrollbar { width: 0; }
+.pag-icon {
+    color: #ed3b3b;
+}
+.dn {
+    background: #1d9ed8!important;
+    padding: 0px 20px;
+}
+.code-icon {
+  color: #039BE5;
+}
+.market-icon {
+    color: #E91E63;
+}
+.nad-icon {
+    color: #689f38;
+}
+.item-block-mak {
+    width: 220px;
+}
+.item-market {
+    display: inline-block;
+    padding: 5px;
+}
+.textarr {
+    height: 350px;
+    color: #0923b7;
+}
+.danger-btn:active {
+    background: #ef5350;
+    color: white;
+}
+.tabs .tab a {
+    color: #455A64!important;
+}
+.tabs .tab a:hover {
+    color: #455A64!important;
+}
+.tabs .indicator {
+    background-color: #78909C!important;
+}
+.test-mk {
+   background : white!important;
+   padding: 0px!important;
+}
+/* ie 10+ */
+.modal { -ms-overflow-style: none; }
+.cat-icon {
+    color: #4CAF50;
+}
+.redeem-icon {
+    color: #9C27B0;
+}
+.opl-icon {
+    color: #009688;
+}
+/* фф (свойство больше не работает, других способов тоже нет)*/
+.modal { overflow: -moz-scrollbars-none; }
+.modal::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, rgb(122,153,217)), color-stop(0.72, rgb(73,125,189)), color-stop(0.86, rgb(28,58,148)));
+}
+body {
+  background-color: #f1f1f1;
+}
+.d25 {
+    width: 25px;
+}
+.nav-fix {
+  position:fixed;
+  top:0;
+  z-index:999;
+}
+.right>li>a {
+height: 64px;
+    line-height: 64px;
+}
+.mc {
+  background:#455a64  ;
+  color:#FFF;
+  height:64px;
+  line-height:64px;
+}
+nav ul li a:hover, nav ul li.active {
+    background-color: rgba(69, 90, 100, 0.72);
+}
+
+.logo {
+  height:125px!important;
+  color:#FFF;
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-attachment:fixed;
+  background:#1d9ed8;
+  background-size:100%;
+}
+
+.side-nav {
+  width:270px!important;
+}
+
+.l2 {
+  font-size:36px;
+  font-family: Segoe UI;
+  font-weight: 100;
+}
+.profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+.profile-pic {
+    padding: 15px;
+}
+.profile-info {
+    background: rgba(0, 0, 0, 0.37);
+    color: #fff;
+    margin-top: 15px;
+    height: 30px;
+    font-size: 13px;
+    padding-left: 5px;
+    line-height: 30px;
+    position: relative;
+}
+.online {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    background-color: #8ac176;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    border-color: inherit;
+    margin-top: -13px;
+    margin-left: 34px;
+}
+.icon-set {
+    line-height: inherit;
+    font-size: 1.5rem;
+    width: 19px!important;
+    color: #455a64;
+}
+.home-icon {
+    color: #607D8B;
+}
+.set-icon {
+    color: #2196F3;
+}
+.tovar-icon {
+    color: #4CAF50;
+}
+.card-title {
+    background: rgba(0, 0, 0, 0.02);
+    padding: 13px;
+    font-size: 20px!important;
+}
+.success-card {
+    background: #9CCC65;
+    color: white;
+}
+.warning-card {
+    background: #FFEE58;
+
+}
+.danger-card {
+    background: #ff5252;
+    color: white;
+}
+.info-card {
+    background: #40C4FF;
+    color: white;
+}
+
+.default-btn {
+    background: #26C6DA;
+    color: white;
+}
+.default-btn:hover {
+    background: #26C6DA;
+}
+
+.success-btn {
+    background: #8BC34A;
+    color: white;
+}
+.success-btn:hover {
+    background: #8BC34A;
+}
+
+.warning-btn {
+    background: #FFEE58;
+    color: rgba(0,0,0,0.87);
+}
+.warning-btn:hover {
+    background: #FFEE58;
+}
+
+.danger-btn {
+    background: #ef5350;
+    color: white;
+}
+.danger-btn:hover {
+    background: #ef5350;
+}
+
+.info-btn {
+    background: #00B0FF;
+    color: white;
+}
+.info-btn:hover {
+    background: #00B0FF;
+}
+.vk-btn {
+    background: #4c75a3;
+    color: white;
+}
+.vk-btn:hover {
+    background: #4c75a3;
+}
+.fb-btn {
+    background: #3b5999;
+    color: white;
+}
+.fb-btn:hover {
+    background: #3b5999;
+}
+.gp-btn {
+    background: #dd4b39;
+    color: white;
+}
+.gp-btn:hover {
+    background: #dd4b39;
+}
+.tw-btn {
+    background: #55acee;
+    color: white;
+}
+.tw-btn:hover {
+    background: #55acee;
+}
+.ok-btn {
+    background: #F6881F ; 
+    color: white;
+}
+.ok-btn:hover {
+    background: #F6881F ;
+}
+.mr-btn {
+    background: #168de2 ; 
+    color: white;
+}
+.mr-btn:hover {
+    background: #168de2 ;
+}
+.add-btn {
+    float: right;
+    margin-top: -50px;
+    margin-right: 8px;
+}
